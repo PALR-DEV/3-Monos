@@ -36,14 +36,6 @@ export default function Item() {
         }
     }, [searchParam]);
 
-    const complements = [
-        { id: 'rice', name: 'White Rice', price: 2.50 },
-        { id: 'sweet-potato', name: 'Sweet Potatoes', price: 3.00 },
-        { id: 'black-beans', name: 'Black Beans', price: 2.00 },
-        { id: 'plantain', name: 'Fried Plantain', price: 3.50 },
-        { id: 'salad', name: 'Mixed Salad', price: 4.00 },
-        { id: 'yuca', name: 'Cassava', price: 2.75 }
-    ];
 
     const toggleComplement = (complementId: string) => {
         setComplementData(prev => 
@@ -55,7 +47,7 @@ export default function Item() {
 
     const calculateTotal = () => {
         const complementsPrice = selectedComplements.reduce((total, id) => {
-            const complement = complements.find(c => c.id === id);
+            const complement = complementData.find(c => c.id === id);
             return total + (complement?.price || 0);
         }, 0);
         return (itemData!.price + complementsPrice) * quantity;
@@ -79,7 +71,7 @@ export default function Item() {
         <div className="min-h-screen bg-white">
             {/* Image Section */}
             <div className="relative animate-fade-in">
-                
+
                 <Link  href="/menu"
                     className="absolute top-4 left-4 z-10 p-3 bg-white/90 hover:bg-white rounded-full shadow-lg transition-all duration-200 backdrop-blur-sm animate-fade-in"
                     style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
