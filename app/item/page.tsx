@@ -79,7 +79,7 @@ export default function Item() {
         <div className="min-h-screen bg-white">
             {/* Image Section */}
             <div className="relative animate-fade-in">
-                {/* Back Button */}
+                
                 <Link  href="/menu"
                     className="absolute top-4 left-4 z-10 p-3 bg-white/90 hover:bg-white rounded-full shadow-lg transition-all duration-200 backdrop-blur-sm animate-fade-in"
                     style={{ animationDelay: '0.2s', animationFillMode: 'both' }}
