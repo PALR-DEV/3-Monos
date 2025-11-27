@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "Caesar Salad", "description": "Fresh romaine lettuce with parmesan and croutons", "price": 12.99, "category": "Starters", "image": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg" },
+    { "id": 2, "name": "Bruschetta", "description": "Toasted bread with tomatoes, basil, and olive oil", "price": 9.99, "category": "Starters", "image": "https://images.pexels.com/photos/34823974/pexels-photo-34823974.jpeg" },
+    { "id": 3, "name": "Grilled Salmon", "description": "Atlantic salmon with seasonal vegetables", "price": 24.99, "category": "Main Course", "image": "https://images.pexels.com/photos/19532105/pexels-photo-19532105.jpeg" },
+    { "id": 4, "name": "Ribeye Steak", "description": "Prime cut ribeye with roasted potatoes", "price": 32.99, "category": "Main Course", "image": "https://images.pexels.com/photos/8753745/pexels-photo-8753745.jpeg" },
+    { "id": 5, "name": "Margherita Pizza", "description": "Classic tomato, mozzarella, and basil", "price": 16.99, "category": "Main Course", "image": "https://images.pexels.com/photos/29039070/pexels-photo-29039070.jpeg" },
+    { "id": 6, "name": "Tiramisu", "description": "Classic Italian coffee-flavored dessert", "price": 8.99, "category": "Desserts", "image": "https://images.pexels.com/photos/33522496/pexels-photo-33522496.jpeg" },
+    { "id": 7, "name": "Chocolate Lava Cake", "description": "Warm chocolate cake with molten center", "price": 9.99, "category": "Desserts", "image": "https://images.pexels.com/photos/5163948/pexels-photo-5163948.jpeg" }
+]

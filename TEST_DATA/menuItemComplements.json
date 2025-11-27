@@ -1,0 +1,66 @@
+[
+  {
+    "menuItemId": 1,
+    "complements": [
+      { "id": "1-1", "name": "Grilled Chicken", "price": 4.50, "type": "add-on", "multipleAllowed": false },
+      { "id": "1-2", "name": "Avocado", "price": 2.75, "type": "add-on", "multipleAllowed": false },
+      { "id": "1-3", "name": "Shrimp (3 pcs)", "price": 5.00, "type": "add-on", "multipleAllowed": false },
+      { "id": "1-4", "name": "Extra Parmesan", "price": 1.00, "type": "extra", "multipleAllowed": true },
+      { "id": "1-5", "name": "Gluten-free Croutons", "price": 1.50, "type": "substitution", "multipleAllowed": false }
+    ]
+  },
+  {
+    "menuItemId": 2,
+    "complements": [
+      { "id": "2-1", "name": "Burrata", "price": 3.50, "type": "add-on", "multipleAllowed": false },
+      { "id": "2-2", "name": "Prosciutto", "price": 2.75, "type": "add-on", "multipleAllowed": false },
+      { "id": "2-3", "name": "Extra Tomatoes", "price": 1.00, "type": "extra", "multipleAllowed": true },
+      { "id": "2-4", "name": "Balsamic Reduction", "price": 0.75, "type": "sauce", "multipleAllowed": false }
+    ]
+  },
+  {
+    "menuItemId": 3,
+    "complements": [
+      { "id": "3-1", "name": "Lemon Butter Sauce", "price": 1.25, "type": "sauce", "multipleAllowed": false },
+      { "id": "3-2", "name": "Roasted Asparagus", "price": 3.00, "type": "side", "multipleAllowed": false },
+      { "id": "3-3", "name": "Mashed Potatoes", "price": 2.50, "type": "side", "multipleAllowed": false },
+      { "id": "3-4", "name": "Extra Seasonal Vegetables", "price": 2.00, "type": "extra", "multipleAllowed": true }
+    ]
+  },
+  {
+    "menuItemId": 4,
+    "complements": [
+      { "id": "4-1", "name": "Peppercorn Sauce", "price": 1.75, "type": "sauce", "multipleAllowed": false },
+      { "id": "4-2", "name": "Herb Butter", "price": 1.25, "type": "topping", "multipleAllowed": false },
+      { "id": "4-3", "name": "Onion Rings", "price": 3.00, "type": "side", "multipleAllowed": false },
+      { "id": "4-4", "name": "Side Salad", "price": 2.50, "type": "side", "multipleAllowed": false }
+    ]
+  },
+  {
+    "menuItemId": 5,
+    "complements": [
+      { "id": "5-1", "name": "Extra Mozzarella", "price": 1.50, "type": "extra", "multipleAllowed": true },
+      { "id": "5-2", "name": "Gluten-free Crust", "price": 2.00, "type": "substitution", "multipleAllowed": false },
+      { "id": "5-3", "name": "Pepperoni", "price": 2.00, "type": "add-on", "multipleAllowed": true },
+      { "id": "5-4", "name": "Basil Pesto Drizzle", "price": 1.00, "type": "sauce", "multipleAllowed": false }
+    ]
+  },
+  {
+    "menuItemId": 6,
+    "complements": [
+      { "id": "6-1", "name": "Vanilla Ice Cream", "price": 1.75, "type": "side", "multipleAllowed": false },
+      { "id": "6-2", "name": "Extra Cocoa Powder", "price": 0.50, "type": "extra", "multipleAllowed": true },
+      { "id": "6-3", "name": "Espresso Shot", "price": 0.75, "type": "add-on", "multipleAllowed": false },
+      { "id": "6-4", "name": "Biscotti", "price": 1.00, "type": "side", "multipleAllowed": true }
+    ]
+  },
+  {
+    "menuItemId": 7,
+    "complements": [
+      { "id": "7-1", "name": "Vanilla Ice Cream", "price": 1.75, "type": "side", "multipleAllowed": false },
+      { "id": "7-2", "name": "Raspberries", "price": 1.50, "type": "extra", "multipleAllowed": true },
+      { "id": "7-3", "name": "Whipped Cream", "price": 0.75, "type": "extra", "multipleAllowed": true },
+      { "id": "7-4", "name": "Extra Chocolate Sauce", "price": 0.99, "type": "sauce", "multipleAllowed": true }
+    ]
+  }
+]
